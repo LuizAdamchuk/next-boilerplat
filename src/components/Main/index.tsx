@@ -5,6 +5,10 @@ const Main = ({
   description = 'TypeScript, ReactJS, NextJS e Styled Components'
 }) => (
   <S.Wrapper>
+    <S.Logo
+      src="/img/logo.png"
+      alt="Image escrito DMCHK em letras brancas"
+    />
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>
     <S.Illustration
